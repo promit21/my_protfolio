@@ -1,4 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoMenu } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -26,20 +27,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
+          <IoMenu className="text-2xl font-bold text-accent" />
           </div>
           <ul
             tabIndex={0}
@@ -48,10 +36,10 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="lg:text-2xl text-gray-200">Promit Mondol</a>
+        <a className="lg:text-2xl text-gray-200" data-aos="zoom-in" data-aos-duration="1000">Promit Mondol</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-white text-base">{navLinks}</ul>
+        <ul className="menu menu-horizontal px-1 text-white text-base ">{navLinks}</ul>
       </div>
       <div className="navbar-end gap-3">
         <a href="https://www.facebook.com/promit.mondal.79" target="_blank">

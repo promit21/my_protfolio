@@ -8,7 +8,13 @@ const Services = () => {
       <div className="max-w-7xl mx-auto">
         <SectionTitle heading={"What I Do?"} />
         <div className="grid lg:grid-cols-2 gap-8">
-          <div className="flex items-center gap-4 text-white">
+          <div
+            className="flex items-center gap-4 text-white"
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <FaLaptopCode className="text-7xl text-accent" />
             <div>
               <h1 className="text-2xl font-bold">Web Development</h1>
@@ -19,7 +25,13 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 text-white">
+          <div
+            className="flex items-center gap-4 text-white"
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <MdLaptopWindows className="text-7xl text-accent" />
             <div>
               <h1 className="text-2xl font-bold">Web Design</h1>
@@ -30,7 +42,13 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 text-white">
+          <div
+            className="flex items-center gap-4 text-white"
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+          >
             <MdDesignServices className="text-7xl text-accent" />
             <div>
               <h1 className="text-2xl font-bold">UI/UX Design</h1>
@@ -40,7 +58,13 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 text-white">
+          <div
+            className="flex items-center gap-4 text-white"
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+          >
             <MdDraw className="text-7xl text-accent" />
             <div>
               <h1 className="text-2xl font-bold">Adobe Photoshop</h1>

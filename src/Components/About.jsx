@@ -8,18 +8,34 @@ const About = () => {
         <SectionTitle heading={"About Me"} />
         <div className="lg:flex px-5 justify-center items-center gap-10 text-white">
           <div className="lg:w-4/6 space-y-5">
-            <h1 className="text-2xl font-bold">
+            <h1
+              className="text-2xl font-bold"
+              data-aos="fade-down"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
               I am <span className="text-accent">Promit Mondol</span>, a Web
               Developer
             </h1>
-            <p>
+            <p
+              data-aos="fade-down"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="200"
+              data-aos-duration="2500"
+            >
               Develop and maintain websites using HTML, CSS, JavaScript, and
               other web development languages and frameworks. Create and
               optimize website layouts and user interfaces using HTML/CSS
               practices. Integrate data from various back-end services and
               databases.
             </p>
-            <p>
+            <p
+              data-aos="fade-down"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="250"
+              data-aos-duration="3000"
+            >
               Write well-designed, testable, efficient code by using best
               software development practices. Ensure the technical feasibility
               of UI/UX designs. Collaborate with designers and developers to
@@ -28,7 +44,12 @@ const About = () => {
               resolve website issues and bugs.
             </p>
           </div>
-          <div className="space-y-2 lg:text-left text-center">
+          <div
+            className="space-y-2 lg:text-left text-center"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <p>Name: Promit Mondol</p>
             <div className="divider"></div>
             <p>E-mail: promitmondol21@gmail.com</p>
@@ -47,20 +68,40 @@ const About = () => {
           </div>
         </div>
         <div className="lg:flex justify-evenly items-center text-center space-y-10 text-white py-9">
-          <div className="">
+          <div
+            data-aos="zoom-out-right"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="250"
+            data-aos-duration="3000"
+          >
             <div className="text-5xl font-bold">1+</div>
             <div className="font-semibold">Years Experiance</div>
           </div>
-          <div className="">
+          <div
+            data-aos="zoom-out-left"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="250"
+            data-aos-duration="3000"
+          >
             <div className="text-5xl font-bold">150+</div>
             <div className="font-semibold">Happy Clients</div>
           </div>
 
-          <div className="">
+          <div
+            data-aos="zoom-out-right"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="250"
+            data-aos-duration="3000"
+          >
             <div className="text-5xl font-bold">50+</div>
             <div className="font-semibold">Projects Done</div>
           </div>
-          <div className="">
+          <div
+            data-aos="zoom-out-left"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="250"
+            data-aos-duration="3000"
+          >
             <div className="text-5xl font-bold">28</div>
             <div className="font-semibold">Get Awards</div>
           </div>

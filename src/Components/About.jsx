@@ -68,40 +68,20 @@ const About = () => {
           </div>
         </div>
         <div className="lg:flex justify-evenly items-center text-center space-y-10 text-white py-9">
-          <div
-            data-aos="zoom-out-right"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-delay="250"
-            data-aos-duration="3000"
-          >
+          <div data-aos="fade-down" data-aos-duration="3000">
             <div className="text-5xl font-bold">1+</div>
             <div className="font-semibold">Years Experiance</div>
           </div>
-          <div
-            data-aos="zoom-out-left"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-delay="250"
-            data-aos-duration="3000"
-          >
+          <div data-aos="fade-down" data-aos-duration="3000">
             <div className="text-5xl font-bold">150+</div>
             <div className="font-semibold">Happy Clients</div>
           </div>
 
-          <div
-            data-aos="zoom-out-right"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-delay="250"
-            data-aos-duration="3000"
-          >
+          <div data-aos="fade-down" data-aos-duration="3000">
             <div className="text-5xl font-bold">50+</div>
             <div className="font-semibold">Projects Done</div>
           </div>
-          <div
-            data-aos="zoom-out-left"
-            data-aos-anchor-placement="bottom-bottom"
-            data-aos-delay="250"
-            data-aos-duration="3000"
-          >
+          <div data-aos="fade-down" data-aos-duration="3000">
             <div className="text-5xl font-bold">28</div>
             <div className="font-semibold">Get Awards</div>
           </div>

@@ -4,7 +4,7 @@ const SectionTitle = ({ heading }) => {
   return (
     <div className="text-center">
       <h1
-        className="text-6xl font-bold py-4 text-white relative"
+        className="text-6xl font-bold py-2 mb-8 text-white relative"
         data-aos="zoom-in"
         data-aos-delay="50"
         data-aos-duration="1500"

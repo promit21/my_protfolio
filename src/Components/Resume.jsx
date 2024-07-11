@@ -15,7 +15,12 @@ const Resume = () => {
           <div className="grid grid-cols-1 gap-5 py-5">
             <h1 className="text-3xl text-white font-bold">My Education</h1>
 
-            <div className="card bg-slate-950 lg:w-[500px] shadow-xl">
+            <div
+              className="card bg-slate-950 lg:w-[500px] shadow-xl"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              data-aos-delay="50"
+            >
               <div className="card-body text-white">
                 <div className="badge badge-accent font-semibold">
                   2016-2018
@@ -33,7 +38,12 @@ const Resume = () => {
                 </p>
               </div>
             </div>
-            <div className="card bg-slate-950 lg:w-[500px] shadow-xl">
+            <div
+              className="card bg-slate-950 lg:w-[500px] shadow-xl"
+              data-aos="flip-right"
+              data-aos-duration="2000"
+              data-aos-delay="70"
+            >
               <div className="card-body text-white">
                 <div className="badge badge-accent font-semibold">
                   2019-2024
@@ -54,7 +64,12 @@ const Resume = () => {
           {/* My Experience */}
           <div className="grid grid-cols-1 gap-5 py-5">
             <h1 className="text-3xl text-white font-bold">My Experience</h1>
-            <div className="card bg-slate-950 lg:w-[500px] shadow-xl">
+            <div
+              className="card bg-slate-950 lg:w-[500px] shadow-xl"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              data-aos-delay="90"
+            >
               <div className="card-body text-white">
                 <div className="badge badge-accent font-semibold">
                   2018-2024
